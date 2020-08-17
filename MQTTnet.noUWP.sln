@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9248C2E1-B9D6-40BF-81EC-86004D7765B4}"
 EndProject
@@ -48,6 +48,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Server", "Source\MQTTnet.Server\MQTTnet.Server.csproj", "{DADEA836-5CC3-474C-A2D8-4D0F31118CD7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Extensions.WebSocket4Net", "Source\MQTTnet.Extensions.WebSocket4Net\MQTTnet.Extensions.WebSocket4Net.csproj", "{9AE2F8DA-4178-470B-B8C4-88BE1DAE7D5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQTTClientTest", "MQTTClientTest\MQTTClientTest.csproj", "{5C58B355-15F5-4A07-A7A6-80D1D61648C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,22 @@ Global
 		{9AE2F8DA-4178-470B-B8C4-88BE1DAE7D5F}.Release|x64.Build.0 = Release|Any CPU
 		{9AE2F8DA-4178-470B-B8C4-88BE1DAE7D5F}.Release|x86.ActiveCfg = Release|Any CPU
 		{9AE2F8DA-4178-470B-B8C4-88BE1DAE7D5F}.Release|x86.Build.0 = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|x64.Build.0 = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|ARM.Build.0 = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|x64.ActiveCfg = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|x64.Build.0 = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +271,7 @@ Global
 		{9C7106CA-96B8-4ABE-B3B4-9357AB8ACB41} = {9248C2E1-B9D6-40BF-81EC-86004D7765B4}
 		{DADEA836-5CC3-474C-A2D8-4D0F31118CD7} = {32A630A7-2598-41D7-B625-204CD906F5FB}
 		{9AE2F8DA-4178-470B-B8C4-88BE1DAE7D5F} = {12816BCC-AF9E-44A9-9AE5-C246AF2A0587}
+		{5C58B355-15F5-4A07-A7A6-80D1D61648C8} = {32A630A7-2598-41D7-B625-204CD906F5FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07536672-5CBC-4BE3-ACE0-708A431A7894}
